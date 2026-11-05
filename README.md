@@ -116,3 +116,4 @@ Le port d'écoute utilisé par défaut pour tous les serveurs est le port **`123
 - **Encodage & Décodage :** Conversion explicite des chaînes en octets (`getBytes(StandardCharsets.UTF_8)`) et inversement (`new String(..., StandardCharsets.UTF_8)`).
 - **Concurrence & Multi-threading :** Utilisation d'un thread dédié pour la méthode bloquante `socket.receive(...)` afin de maintenir l'interface de saisie utilisateur (`Scanner(System.in)`) réactive en continu.
 - **Routage applicatif :** Mémorisation d'adresses d'expéditeurs sous forme de `SocketAddress` pour permettre la réexpédition sélective.
+"# tp4_dar-" 
